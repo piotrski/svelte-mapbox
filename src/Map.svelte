@@ -65,7 +65,7 @@
 
       el.on('load', () => {
         map = el
-        dispatch('ready')
+        dispatch('ready', { map, mapbox })
       })
     }
 
